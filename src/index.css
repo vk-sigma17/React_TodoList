@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+    /* background-color: blueviolet; */
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Gupter", serif;
+    background-color: white;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.app {
+    padding: 20px; 
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 10px;
+    min-height: 400px;
+   
+    width: 380px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.app-heading{
+    font-size: 1.6rem;
+}
+.app-heading .heading-logo{
+    font-size: 14px;
+    margin-left: 6px;
+    color: yellow;
+}
+.form-container{
+   display: flex;
+   flex-direction: row;
+   /* display: inline-block;/ */
+   border: 1px solid gray;
+   padding: 2px;
+   border-radius: 5px;
+   /* width: 35%; */
+    margin: 10px 0px;
+}
+.form-container input{
+    
+    display: flex;
+    flex-grow: 2;
+    border: none;
+    padding: 4px;
+    font-size: 1rem;
+} 
+.form-container input:focus{
+    outline: none;
+}
+.form-container:focus-within{
+    outline: 1px solid gray;
+}
+
+.form-container button{
+    /* border: 1px solid blue; */
+    border: none;
+    background: rgb(255, 8, 8);
+    color:  white;
+    /* border-radius: 5px; */
+    font-family: "Gupter", serif;
+    
+
+    
+} 
+
+.list-content {
+    list-style: none;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.list-content .btn .icon{
+    border: none;
+    background: none;
+    color: white;
+}
+.checkbox {
+    border-radius: 50%;
+    margin-right: 7px;
+    background-color: red;
+}
+.getline{
+    text-decoration: line-through;
+    
+}
+
+
